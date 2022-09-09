@@ -29,7 +29,7 @@ class ClassTestCase(SkyproTestCase):
             '\sfl[:]\s',
             '\scr[:]\s',
             'points_per_action',
-            'mvmntobjbfld'
+            'move'
         ]
         for variable in unexpected_variables:
             self.assertNotRegex(
